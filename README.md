@@ -38,3 +38,6 @@ For modelling 'Probability of default' two group of variables are used:
                 loan amount, interest rate
 - bahavioral - describe person who take the loan: income, age, home ownership, emplyment lenght
 
+
+
+![Variables_description](https://github.com/kamilbanas85/Credit_Risk/assets/53495965/ec61d968-3130-4992-ba24-f563809f90e9)
