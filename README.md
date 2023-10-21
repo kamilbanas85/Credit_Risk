@@ -41,3 +41,13 @@ For modelling 'Probability of default' two group of variables are used:
 Following variables were used:
 
 ![Variables_description](https://github.com/kamilbanas85/Credit_Risk/assets/53495965/ec61d968-3130-4992-ba24-f563809f90e9)
+
+To manage porfolio and losses more precise a threshold values can be used.
+
+![image](https://github.com/kamilbanas85/Credit_Risk/assets/53495965/a4eedfed-8b08-47d7-85c1-87c402d04ca4)
+
+ We can evalute treshold based on accepted rates as percentile of our prob_default from a model. F.e. if we assume 15 % of loans rejected we can evaluate a threshold  as a 0.85 percentile from 'prob_default'. Than, we can evaluate  a bad rates, which is ratio of number of defaults in accepted loans to all accepted loan.
+
+![image](https://github.com/kamilbanas85/Credit_Risk/assets/53495965/aa7a62c8-60bc-40b4-a24d-f9a93d319f79)
+
+We can do this for different  levels of accepted rates. Based on information above we can evaluate an expected lose, portfolio, profit etc. We can incorporate more strict rejected policy, and evaluate profits from that policy.
